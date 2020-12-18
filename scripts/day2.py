@@ -54,7 +54,7 @@ def count_valid(ver = 1):
     """
     Count number of valid pw and print output.
     Args:
-        ver (int, optional): optional
+        ver (int, optional): which version of the pw rule is being used
     """
     dat_lines = data_parser()
     counter = 0

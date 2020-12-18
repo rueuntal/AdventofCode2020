@@ -1,6 +1,8 @@
 def read_file():
     """
     Read ../data/day1a.txt into a list of ints.
+    Returns:
+        list: list of ints
     """
     file_path = '../data/day1a.txt'
     with open(file_path, 'r') as stream:
@@ -11,7 +13,7 @@ def read_file():
 
 def get_product():
     """
-    Get the product of the two ints from the given list that add up to 2020.
+    Get the product of the two ints from the given list that add up to 2020 and print output.
     """
     nums = set(read_file())
     for num in nums:
@@ -22,7 +24,7 @@ def get_product():
 
 def get_three_product():
     """
-    Return the product of the three numbers from the given list that add up to 2020.
+    Return the product of the three numbers from the given list that add up to 2020 and print output.
     """
     # sorting is O(nlog(n))
     nums = sorted(read_file())
