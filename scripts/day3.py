@@ -17,6 +17,8 @@ def count_trees(right, down):
     Args:
         right (int): position to move to the right in each round
         down (int): position to move to the bottom in each round
+    Returns:
+        int: number of trees encountered
     """
     dat = data_parser()
     row, pos = 0, 0
